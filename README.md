@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @DiegoTudor
 - 👀 I’m interested in finanzas
 - 🌱 I’m currently learning tecnologia
-- 💞️ I’m looking to collaborate on ciencia
+- 💞️ I’m looking to collaborate on market cap and crypto.
 - 📫 How to reach me @diegotudor
 <!---
 DiegoTudor/DiegoTudor is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
