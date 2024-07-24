@@ -1,0 +1,26 @@
+```
+import requests
+
+def obtener_precio_criptomoneda(id_criptomoneda):
+    url = f"(link unavailable)"
+    respuesta = requests.get(url)
+    datos = respuesta.json()
+    precio = datos[id_criptomoneda]["usd"]
+    return precio
+
+# Ejemplo de uso:
+id_criptomoneda = "bitcoin"
+precio = obtener_precio_criptomoneda(id_criptomoneda)
+print(f"El precio actual de {id_criptomoneda} es: ${precio}")
+
+# Para obtener el precio de varias criptomonedas a la vez:
+ids_criptomonedas = ["bitcoin", "ethereum", "litecoin"]
+precios = {}
+for id_criptomoneda in ids_criptomonedas:
+    precio = obtener_precio_criptomoneda(id_criptomoneda)
+    precios[id_criptomoneda] = precio
+
+print("Precios actuales:")
+for criptomoneda, precio in precios.items():
+    print(f"{criptomoneda}: ${precio}")
+```
